@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    height: 100vh;
+    background: rgb(253,168,0);
+    background: linear-gradient(90deg, rgba(253,168,0,1) 0%, rgba(250,159,0,0.5) 100%);
+}
+
+.container-calculator {
+    margin-top: 15vh;
+    background-color: black;
+    height: 24rem;
+}
+
+
+ 
+.btn {
+    width: 4rem;
+    height: 4rem;
+    margin: 2px;
+    font-size: 1.5rem;
+}
+
+.input {
+    width: 17rem;
+    height: 3rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    text-align: end;
+}
+
+.input:focus {
+    outline: none;
+}
